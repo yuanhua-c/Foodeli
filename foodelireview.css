@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  color: #31342f;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table, td, th {
+border: 1px solid #ccc;
+}
+
+li {
+  list-style: none;
+}
+
+.top {
+  height: auto;
+  width: 100%;
+}
+
+.topBar {
+  width: 1000px;
+  height: 30px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.topBarLeft {
+  float: left;
+}
+
+.topBarRight {
+  float: right;
+}
+
+.topBarRight a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #31342f;
+}
+
+.topBarRight a:hover {
+  background-color: #fffffa;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.topBarLeft h1 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Osaka-Mono';
+}
+
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 100px;
+  height: 50px;
+}
+
+.topNavi {
+  width: 1000px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.topBar2 {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  background-color: #f7f6eb;
+}
+
+.topBar2 p {
+  font-size: 18px;
+  line-height: 50px;
+  display: inline-block;
+  margin-left: 150px;
+}
+
+.review {
+  width: 100%;
+  height: auto;
+}
+
+.reviewmain {
+  width: 1000px;
+  height: 2500px;
+  margin: auto;
+  text-align: center;
+}
+
+.reviewmain h2 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+.reviewbox {
+  width: 1000px;
+  height: 300px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 80px;
+}
+
+.reviewleft {
+  float: left;
+  width: 400px;
+  margin-right: 50px;
+}
+
+.reviewright {
+  float: right;
+  text-align: left;
+  width: 500px;
+}
+
+.reviewright p {
+  font-size: 20px;
+}
+
+.reviewleft img {
+  width: 200px;
+  height: 150px;
+}
+
+.reviewmore {
+  background-color: #90877c;
+  border-radius: 3px;
+  margin-top: 40px;
+  padding: 15px;
+  width: 200px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  background-color:#f7f6eb;
+}
+
+.footerMain {
+  width: 1000px;
+  height: 200px;
+  margin:auto;
+}
+
+.footerRight {
+  margin-top: 10px;
+  float: right
+}
+
+.footerLeft img {
+  height: 100px;
+  width: 200px;
+}
+
+.footerLeft {
+  padding-top: 40px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 60px;
+}
