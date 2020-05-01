@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  color: #31342f;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table, td, th {
+border: 1px solid #ccc;
+}
+
+li {
+  list-style: none;
+}
+
+.top {
+  height: auto;
+  width: 100%;
+}
+
+.topBar {
+  width: 1000px;
+  height: 30px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.topBarLeft {
+  float: left;
+}
+
+.topBarRight {
+  float: right;
+}
+
+.topBarRight a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #31342f;
+}
+
+.topBarRight a:hover {
+  background-color: #fffffa;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.topBarLeft h1 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Osaka-Mono';
+}
+
+.topNavi {
+  width: 1000px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+}
+
+.telephone a {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+}
+
+.telephone img {
+  width: 500px;
+  height: 50px;
+}
+
+.top2 {
+  width: 100%;
+  height: auto;
+}
+
+.topCenter {
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.topCenter p {
+  font-size: 30px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: #31342f;
+  text-align: left;
+  font-family:'M PLUS Rounded 1c';
+}
+
+.under {
+  background-color: #f7f6eb;
+  border-radius: 5px;
+}
+
+.topCenter img {
+  width: 1000px;
+  height: 500px;
+  opacity: 0.6;
+}
+
+.cashless {
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+}
+
+.cashless img, .LINE img {
+  opacity: 0.8;
+}
+
+.LINE {
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.lineup {
+  width: 100%;
+  height: auto;
+  background-color: #fffffa;
+}
+
+.lineupMain {
+  width: 1000px;
+  height: 1450px;
+  margin:auto;
+  padding-top: 40px;
+}
+
+.icon {
+  width: 90px;
+  height: 90px;
+  padding-left: 30px;
+}
+
+.iconbox p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.detailPhoto {
+  width: 150px;
+  height: 120px;
+  border-radius: 20%;
+}
+
+.lineupBox {
+  width: 1000px;
+  height: 300px;
+}
+
+.lineupMain h2 {
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  font-weight: normal;
+  border-bottom: 5px solid #d1b592;
+}
+
+.iconbox {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-right: 1px solid #d1b592;
+}
+
+.detailboxes {
+  width: 800px;
+  float: right;
+  margin: auto;
+}
+
+.detailbox {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.detailbox p {
+  text-align: center;
+}
+
+.signuplogin {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.signuploginmain {
+  width: 1000px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.signuploginmain h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #31342f;
+}
+
+.bookButton {
+  background-color: #91b579;
+  opacity: 0.8;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 100px;
+  font-weight: normal;
+}
+
+.signupbutton {
+  margin: 20px 0;
+}
+
+.pickup {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.pickupMain {
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+}
+
+table {
+  font-size:
+  20px;
+}
+
+
+.pickuptr {
+  text-align: center;
+}
+
+.pickuptr td {
+  width: 400px;
+  height: 100px;
+  text-align:center;
+  background-color: #f7f6eb;
+}
+
+.pickuptr a {
+  display: block;
+}
+
+
+.pickupMain h2 {
+  font-weight: normal;
+}
+
+.fee {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.feeMain {
+  width: 1000px;
+  height: 200px;
+  margin: auto;
+}
+
+.fee tr td {
+  width: 400px;
+  height: 50px;
+  text-align:center;
+  font-weight: normal;
+}
+
+.feeMain h2 {
+  font-weight: normal;
+}
+
+.customerreview {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.reviewMain h2 {
+  font-weight: normal;
+}
+.reviewMain {
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+}
+
+.reviewMain img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 50px;
+}
+
+.review1 {
+  height: 150px;
+  margin-top: 30px;
+}
+
+.more {
+  margin-top: 40px;
+  float: right;
+}
+
+.more a {
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  background-color:#fffffa;
+}
+
+.footerMain {
+  width: 1000px;
+  height: 200px;
+  margin:auto;
+}
+
+.footerRight {
+  margin-top: 10px;
+  float: right
+}
+
+.footerLeft img {
+  height: 100px;
+  width: 200px;
+}
+
+.footerLeft {
+  padding-top: 40px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 60px;
+}
